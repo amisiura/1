@@ -1,0 +1,66 @@
+body{
+	width:600px;
+}
+
+p:first-letter{
+	color:red;
+	clear:both;
+}
+
+
+em{
+	color:white;
+	background-color:green;
+}
+
+h1{
+	
+	position:relative;
+	left:400px;
+	top: 0px;
+	color:orange;
+}
+
+div#allotment>h2{
+color:orange;	
+}
+
+div#warehouse>h2{
+color:blue;	
+}
+
+li{
+	font-weight: bold;
+}
+
+ol>li {
+	font-weight: normal;
+}
+
+div#allotment .fruits-list{
+color: grey;
+}
+
+div#warehouse .fruits-list{
+color: green;
+}
+
+.vegetables-list{
+color: red;
+}
+
+tbody>tr>td:first-child{
+	color: orange;
+	text-align: left;
+}
+
+tbody>tr>td:not(:first-child){
+	background-color: green;
+	color: white;
+}
+
+
+td{
+	font-weight: bold;
+	text-align: center;
+}
